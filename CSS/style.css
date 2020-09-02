@@ -1,0 +1,113 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: royalblue;
+    margin-bottom: 60px;
+}
+
+nav {
+    margin-bottom: 2%;
+    background-color: black;
+}
+
+h1 {
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 24px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.header {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container {
+    max-height: 100%;
+}
+
+.img-border {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 5px;
+    padding: 0;
+    margin-bottom: 8%;
+}
+
+.form-group {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+.contact-page {
+    margin-top: 5%;
+}
+
+a:not([href]) {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("https://www.shareicon.net/data/2016/10/11/842370_multimedia_512x512.png");
+}
+  
+.navbar-toggler {
+    border-color: royalblue;
+}
+
+.navbar-nav {
+    float: none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item {
+    color: royalblue;
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: darkblue;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
